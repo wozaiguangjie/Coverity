@@ -1,0 +1,113 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<parent>
+		<groupId>com.taobao.stc</groupId>
+		<artifactId>stc-lib-parent</artifactId>
+		<version>1.0.0-SNAPSHOT</version>
+	</parent>
+
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>stc-findbugs</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+
+	<dependencies>
+	 
+		
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm-analysis</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm-commons</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm-tree</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm-util</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>asm</groupId>
+			<artifactId>asm-xml</artifactId>
+			<version>3.3</version>
+		</dependency>
+
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+			<version>2.4</version>
+		</dependency>
+
+		<dependency>
+			<groupId>dom4j</groupId>
+			<artifactId>dom4j</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>jaxen</groupId>
+			<artifactId>jaxen</artifactId>
+			<version>1.1.1</version>
+			<exclusions>
+				<exclusion>
+					<artifactId>xalan</artifactId>
+					<groupId>xalan</groupId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>jdepend</groupId>
+			<artifactId>jdepend</artifactId>
+			<version>2.9.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>net.jcip</groupId>
+			<artifactId>jcip-annotations</artifactId>
+			<version>1.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jsr305</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>bcel</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.findbugs</groupId>
+			<artifactId>jFormatString</artifactId>
+			<version>2.0.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>com.taobao.stc</groupId>
+			<artifactId>findbugs-annotations</artifactId>
+			<version>2.0.2</version>
+		</dependency>
+
+	</dependencies>
+</project>
